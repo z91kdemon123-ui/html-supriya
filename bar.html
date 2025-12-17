@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background-color: #333;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 4px;
+            color: #ffd700;
+        }
+
+        nav a.active {
+            background-color: #4CAF50;
+            border-radius: 4px;
+        }
+
+        /* Content Styles */
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+        }
+
+        section h2 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website. This is the home section.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Learn more about us in this section.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <p>Check out the services we offer.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>View our latest work and projects.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Get in touch with us for more information.</p>
+        </section>
+    </main>
+</body>
+</html>
