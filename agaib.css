@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html {
+  font-size: 16px;
+}
+.whole {
+  width: 100vw;
+  height: 100vh;
+  background-color:#814d2d;
+  display: flex;
+}
+.whole > div {
+  flex: 1;
+}
+.two {
+  background-image: url("download\ \(14\).jpg");
+ background-position: center;
+ 
+.navigation {
+  width: 100%;
+  height: 10vh;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  font-family: cursive;
+}
+.navigation > a {
+  text-decoration: none;
+  color: rgb(255, 224, 202);
+  font-size: 1.27rem;
+}
+
+.one-1 {
+  width: 40%;
+  height: 60%;
+ align-items: left;
+  gap: 20px;
+  position: absolute;
+   font-family: cursive;
+   content: "chose the cofffe or drink of your desire";
+}
+}
+.one-1 > h1 {
+  content: "chose the cofffe or drink of your desire";
+  display: flex;
+  flex-direction: column;
+  color: #021d2d;
+  font-size: 3.25rem;
+}
+.one-1 > h1::before {
+content: "chose the cofffe or drink of your desire";
+  font-size: 3rem;
+  font-weight: lighter;
+  color: rgb(47, 34, 27);
+  line-height: 15px;
+
+}
+.one-1 > h3 {
+
+  margin-left: 100px;
+  color: #473535,;
+  margin-top: 80px;
+  font-size: 4rem;
+  width: 400px;
+ justify-content: left;
+ align-items: left;
+  height: 100vh;
+content: "chose the cofffe or drink of your desire";
+            
+}
+.one-1 > p {
+  color: #1b0707;
+  text-align: justify;
+  line-height: 30px;
+  font-weight: bold;
+}
+.one-1 > a {
+  text-decoration: none;
+  background-color: rgb(35, 22, 22);
+  padding: 25px 28px;
+  border-radius: 29px;
+  width: 150px;
+  height: 65px;
+  color: #f2eeeb;
+  margin-top: 23px;
+  font-family: cursive;
+}
+.one-1 > a:hover {
+  background-color: #9e7472;
+  color: rgb(193, 182, 182);
+}
+.navigation > a:hover {
+  color: rgb(182, 140, 118);
+  transition: 0.37s;
+}
+
+ span {
+ font-size: 90px;
+ color: #422c2c;
+ font-family: cursive;
+ text-transform: uppercase;
+ display: inline-block;
+ transform: rotateY(0deg);
+ transition: 0.5s;
+
+ text-shadow: 0 1px 0 #b7b7b7,
+                         0 2px 0 #b7b7b7, 
+                         0 3px 0 #b7b7b7, 
+                         0 4px 0 #b7b7b7, 
+                         0 5px 0 #b7b7b7, 
+                         0 6px 0 transparent, 
+                         0 7px 0 transparent, 
+                         0 8px 0 transparent,
+                          0 9px 0 transparent,
+                          0 10px 10px rgba(0, 0, 0, 0.5);
+           animation:  bounce 0.4s ease infinite alternate;
+        
+            position: relative; 
+        } 
+          
+        h3 span:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+        h3 span:nth-child(2) {
+            animation-delay: 0.3s;
+        }
+        h3  span:nth-child(3) {
+            animation-delay: 0.5s;
+        }
+        h3  span:nth-child(4) {
+            animation-delay: 0.7;
+        }
+         
+    
+          
+            
+        @keyframes bounce {
+            100% {
+                top: -20px; 
+                text-shadow: 0 1px 0 #d1b9b9,
+                             0 2px 0 #d1b9b9,
+                             0 3px 0 #d1b9b9,
+                             0 4px 0 #d1b9b9,
+                             0 5px 0 #d1b9b9,
+                             0 6px 0 #d1b9b9,
+                             0 7px 0 #d1b9b9,
+                             0 8px 0 #d1b9b9,
+                              0 9px 0 #d1b9b9, 
+                               0 60px 30px  rgba(0, 0, 0, 0.3);
+            }
+        }
